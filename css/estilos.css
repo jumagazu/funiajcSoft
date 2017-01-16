@@ -1,0 +1,167 @@
+*{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.wrapper{
+	max-width: 1200px;
+/*	margin: auto;*/
+/*	background: green;*/
+}
+
+.contenedor{
+
+	margin: auto;
+	padding: 0px;
+/*	background: #DF01D7;*/
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+header{
+	width: 100%;
+/*	background: lightblue;*/
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.logo{
+	width: 40%;
+}
+
+.logo img{
+	width: 80%;
+}
+
+header nav{
+/*	width: 100%;*/
+/*	background: #2E9AFE;*/
+	display: flex;
+	justify-content:flex-start;
+	/*align-items: flex-end;*/
+	align-self: flex-end;
+	font-size: 15px;
+
+}
+
+header nav a{
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 1px solid rgba(0,0,0,.3);
+	text-decoration: none;
+	color: #000;
+	background: rgba(223,  219,  225,  1);
+	line-height: 30px;
+}
+
+header nav a:hover{
+	border-radius: 80px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.contenido{
+	margin-left: 5px;
+/*	background: rgba(21, 89, 219, 1);*/
+	display: flex;
+	flex-direction: column;
+}
+
+.subcontenido{
+	margin-left: 5px;
+	padding: 10px;
+/*	background:rgba(223, 78, 113, 1);*/
+	text-align: justify;	
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.subcontenido article{
+	margin: 10px;
+}
+
+
+.lateral{
+	width: 30%;
+/*	background: rgba(223, 219, 113, 1);*/
+	align-self: flex-start;
+}
+
+
+
+.lateral h3{
+	text-align: center;
+	color: rgba(23, 19, 113, 1);
+}
+
+#frm-ingreso input[type="text"], input[type="password"]{
+	line-height: 40px;
+	font-size: 15px;
+	margin: 5px;
+}
+
+#frm-ingreso .btn-enviar{
+	width: 100px;
+	background: #2E64FE;
+	color: #fff;
+	border: none;
+	line-height: 40px;
+	border-radius: 5px;
+}
+
+.lateral p{
+	text-align: center;
+}
+
+.slider{
+	width: 100%;
+	margin-left: 5px;
+/*	background: gray;*/
+}
+
+.slider img{
+	width: 100%;
+}
+
+.frm-diplomado input{
+/*	background: yellow;*/
+}
+
+.dip{
+	border: 1 solid #000;
+}
+
+.sec1{
+	background: blue;
+}
+
+footer{
+	width: 100%;
+	margin-left: 5px;
+/*	background: rgba(84, 120, 113, 1);*/
+}
+
+
+/*
+	background: url("../images/iconos/correo.png") 0px no-repeat #fff;
+	background-position: left;
+	background-size: contain;	
+*/
+
+
+
