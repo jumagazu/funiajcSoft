@@ -1,0 +1,125 @@
+body{
+	margin: 0 auto;
+	font-family: 'Myriad Pro Light';
+}
+
+form{
+	width: 950px;
+	margin: auto;
+	background: rgba(0,0,0,.1);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 5px;
+	display: flex;
+	flex-flow: column;
+}
+
+fieldset{
+	padding: 10px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border: none;
+}
+
+.campos{
+	display: flex;
+}
+
+h1{
+	color: #08088A;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea, select{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 15px;
+	border: none;
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+
+.botones{
+/*	padding: 20px;*/
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.boton{
+	width: 64px;
+	height: 64px;
+	background: #2ECCFA;
+	color: #fff;
+/*	padding: 30px;*/
+	box-sizing: border-box;
+}
+
+.agregar{
+	background: url('../images/agregar.png') no-repeat center;
+	background-size: 100% 100%;
+	border: none;
+}
+
+.editar{
+	background: url('../images/editar.png') no-repeat center;
+	background-size: 100% 100%;
+	border: none;
+}
+
+.eliminar{
+	background: url('../images/eliminar.png') no-repeat center;
+	background-size: 100% 100%;
+	border: none;
+}
+
+.grabar{
+	background: url('../images/grabar.png') no-repeat center ;
+	background-size: 100% 100%;
+	border: none;
+}
+
+.buscar{
+	background: url('../images/buscar.png') no-repeat center;
+	background-size: 100% 100%;
+	border: none;
+}
+
+.boton:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.volver{
+/*	font-family: 'Myriad Pro Light';
+	background: url('../images/atras.png') no-repeat center;
+	background-size: 100% 100%;*/
+
+
+}
+
+.volver img{
+	width: 64px;
+	height: 64px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.volver img:hover{
+	cursor: pointer;
+	opacity: .3;
+
+}
+

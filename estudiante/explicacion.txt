@@ -1,0 +1,18 @@
+En esta carpeta estan los siguientes archivos:
+
+- Capturar.php: Este archivo me permite capturar la info del formulario estudiante
+- ControlDb.php: En este archivo se encuentra la lógica (clases, propiedades y funciones)
+- listado.php: Muestra el listado de estudiantes
+- Estudiante.php: Muestra el formulario para ingresar un nuevo estudiante
+
+Este es un simple modelo inicial. A este modelo, lógico, que hay que mejorarlo en su parte de
+apariencia, pero en este momento es funcional.
+
+En la parte superior del archivo listado.php hay un icono que nos lleva a la venta de Ingresar
+Estudiantes
+
+Para que prueben este modelo tienen que crear dos tablas:
+- tipo_persona
+- personal
+
+Les dejo el script para creación de las tablas e inserción de datos
