@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 		<link href="css/jquery-ui.css" rel="stylesheet">
+                <link href="css/formularios.css" rel="stylesheet">
 		<script>
 			$(function() {
      			$("#fecha").datepicker({ dateFormat: 'dd-mm-yyyy'}); 

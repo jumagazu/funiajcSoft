@@ -6,7 +6,7 @@
 				$host = "localhost";
 				$dbname = "fundiajc";
 				$user = "root";
-				$pass = "12345";
+				$pass = "";
 
 				$this->con=mysqli_connect($host,$user,$pass) or die("Error en la conexión");
 				mysqli_select_db($this->con,$dbname) or die("No se ha encontrado la base de datos");
