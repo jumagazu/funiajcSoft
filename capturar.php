@@ -15,6 +15,7 @@
 	$tipoest		 = $_POST["tipoest"];
 	$programa		 = $_POST["programaacad"];
 	$libretamilitar	 = $_POST["libretamilitar"];
+	//hola mundo //
 
 	$sql = "insert into personal values('$numeroid','$tipoid','$nombre','$apellidos','$sexo','$direccion','$telefono','$fechanac','E','$correo','$libretamilitar','$estrato','$tipoest')";
 	$obj = new controlDB;
